@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Arduino build outputs
+build/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+
+# Secrets and local config
+.env
+secrets.h
+config_local.h
+
+# Data and logs
+*.log
+*.csv
+
+# IDE and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
